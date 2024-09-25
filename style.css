@@ -1,0 +1,25 @@
+body {
+    margin-top:45px;
+}
+
+.mainAvatar {
+    width:100px;
+    height:100px;
+}
+
+li::before {
+    content:'';
+    position:absolute;
+    left:-8px;
+    top:15px;  
+    height: 15px;
+    width: 15px;
+    background-color: #0eb955;
+    border-radius: 50%;
+    font-size:2.4rem;
+}
+
+
+.main_container {
+    width:35%;
+}
